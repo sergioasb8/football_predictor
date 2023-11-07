@@ -10,7 +10,7 @@ The goal is to find the best way to predict a football match and also, understan
 
 ## Data
 
-[Data information](https://github.com/sergioasb8/midterm_project/blob/main/data/data.md)
+To get more information about the data, refer to [Data information](https://github.com/sergioasb8/midterm_project/blob/main/data/README.md)
 
 
 ## Use the project locally on your computer
