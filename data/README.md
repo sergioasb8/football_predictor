@@ -70,8 +70,8 @@ These are the columns dictionary for the data. The enrichment columns are not in
     * Win : 1 - Win, 0 - [Lost - Draw]
     * win_rate : wins / number_of_matches
     * mooving_win_rate : wins_of_the_last_5_macthes / 5
-    * mooving_goals_scored : goals_scored_in_the_last_5_matches / 5
-    * mooving_goals_received : goals_received_in_the_last_5_matches / 5
+    * mooving_goals_scored : sum(FTG_scored_Total) / 5
+    * mooving_goals_received : sum(FTG_received_Total) / 5
 
 
 ## Raw data to predict
@@ -90,4 +90,4 @@ Inside the folder **to_predict/** is an example of matches with all the required
     * position : position at the start of the match
     * win_rate : wins / number_of_matches
     * mooving_win_rate : wins_of_the_last_5_macthes / 5
-    * mooving_goals_scored : goals_scored_in_the_last_5_matches / 5
+    * mooving_goals_scored : sum(FTG_scored_Total) / 5
