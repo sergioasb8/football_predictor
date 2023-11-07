@@ -19,8 +19,8 @@ The goal is to find the best way to predict a football match and also, understan
 
 Following the links, there is more detailed information about the required technologies where you can find information to download and how to use them.
 
-    * [Python](https://www.python.org/)
-    * [Docker](https://www.docker.com/)
+    [Python](https://www.python.org/)
+    [Docker](https://www.docker.com/)
 
 ### Clone the repository
 
