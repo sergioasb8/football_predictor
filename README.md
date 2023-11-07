@@ -132,3 +132,13 @@ If requests does not apear on the list of installed libraries type
 2. Create a json with all the required info to make a prediction
 
 ![Alt text](image-1.png)
+
+3. Define the url to the deployed service
+
+![Alt text](image-2.png)
+
+4. Make the request
+
+![Alt text](image-3.png)
+
+Also use the notebook [08_test_service.ipynb](https://github.com/sergioasb8/midterm_project/blob/main/notebooks/08_test_service.ipynb) to check how to use the service.

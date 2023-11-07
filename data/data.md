@@ -82,3 +82,12 @@ Inside the file **predict_data.csv** there is a sample of raw data available to 
 ## Input Data to predict
 
 Inside the folder **to_predict/** is an example of matches with all the required information to make predictions. Remember that each row represents an input to predict using the model.
+
+    * ftg_scored_total : total amount of goals scored
+    * htg_scored_total : total amount of goals scored during the first half
+    * points : points at the start of the match
+    * goal_difference : goal difference at the start of the match
+    * position : position at the start of the match
+    * win_rate : wins / number_of_matches
+    * mooving_win_rate : wins_of_the_last_5_macthes / 5
+    * mooving_goals_scored : goals_scored_in_the_last_5_matches / 5
