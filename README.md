@@ -133,6 +133,9 @@ If requests does not apear on the list of installed libraries type
 
 ![Alt text](image-1.png)
 
+If you need more information about the requiered values to make a prediction go to the [data documentation](https://github.com/sergioasb8/midterm_project/blob/main/data/data.md#input-data-to-predict).
+
+
 3. Define the url to the deployed service
 
 ![Alt text](image-2.png)
