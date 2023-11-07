@@ -103,3 +103,32 @@ Once all this steps are followed correctly the Flask application will be availab
 
 2. Use the service, you can use the notebook [08_test_service.ipynb](https://github.com/sergioasb8/midterm_project/blob/main/notebooks/08_test_service.ipynb) to check how to use the service.
 
+
+
+## Use the cloud service
+
+### Setup
+
+Using a Jupyter Notebook is recommended since it allows to see the output after a cell is run.
+
+check the kernel already have installed **requests**.
+
+```python
+    !pip3 freeze
+```
+
+If requests does not apear on the list of installed libraries type
+
+```python
+    !pip3 install requests
+```
+
+### Make a request to the deployed service
+
+1. Import requests
+
+![Alt text](image.png)
+
+2. Create a json with all the required info to make a prediction
+
+![Alt text](image-1.png)
