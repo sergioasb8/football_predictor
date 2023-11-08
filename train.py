@@ -20,9 +20,8 @@ xgb_params = {
 }
 
 data_path = './data/enriched_data/premier_league.csv'
-
-output_file = './models/xgboost_model.bin'
-
+output_model = '../xgboost_model.pkl'
+output_vectorizer = '../dv.pkl'
 
 # get the data for the model
 data_model = pd.read_csv(data_path)
@@ -47,5 +46,9 @@ dx = xgb.DMatrix(X_df, label=y_df, feature_names=features)
 # train the model
 model = xgb.train(xgb_params, dx, num_boost_round=100)
 
-with open(output_file, 'wb') as f_out:
-    pickle.dump((dv, model), f_out)
+# save model an vectorizer
+with open(output_model, "wb") as f:
+    pickle.dump(model, f)
+    
+with open(output_vectorizer, "wb") as f:
+    pickle.dump(dv, f)
